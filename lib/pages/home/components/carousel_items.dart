@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio_demo1/models/carousel_item_model.dart';
 import 'package:portfolio_demo1/utilities/constants.dart';
