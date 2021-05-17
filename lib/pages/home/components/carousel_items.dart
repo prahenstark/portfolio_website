@@ -14,7 +14,7 @@ List<CarouselItemModel> carouselItems = List.generate(5,
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    "Computer Engineer",
+                    "Hi there! My name is  ",
                     style: GoogleFonts.oswald(
                       color: kPrimaryColor,
                       //color: Color.fromRGBO(19, 20, 44, 1),
@@ -39,7 +39,19 @@ List<CarouselItemModel> carouselItems = List.generate(5,
                     height: 10.0,
                   ),
                   Text(
-                    "Developer From Odisha",
+                      "Computer Engineer",
+                      style: GoogleFonts.oswald(
+                        color: kPrimaryColor,
+                        //color: Color.fromRGBO(19, 20, 44, 1),
+                        fontWeight: FontWeight.w900,
+                        fontSize: 16.0,
+                      )
+                  ),
+                  SizedBox(
+                    height: 18.0,
+                  ),
+                  Text(
+                    "From Odisha",
                     style: TextStyle(
                       color: kCaptionColor,
                       //color: Colors.black87,
