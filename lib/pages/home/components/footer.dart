@@ -163,14 +163,15 @@ Widget _buildUi(double width, BuildContext context) {
                         width: 15.0
                     ),
                     GestureDetector(
-                      onTap: () async{
-                        const url = "https://www.instagram.com/_staaark_/";
-                        if (await canLaunch(url)){
-                          await launch(url);
-                        }else{
-                          throw 'Could not launch $url';
-                        }
-                      },
+                      // onTap: () async{
+                      //   const url = "https://www.instagram.com/_staaark_/";
+                      //   if (await canLaunch(url)){
+                      //     await launch(url);
+                      //   }else{
+                      //     throw 'Could not launch $url';
+                      //   }
+                      // },
+                      onTap: () {},
                       child: MouseRegion(
                         cursor: SystemMouseCursors.click,
                         child: Container(
